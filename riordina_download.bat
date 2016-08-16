@@ -31,7 +31,7 @@ ROBOCOPY /S %userprofile%\download *.ods %userprofile%\Documents\DaSistemare /MO
 ROBOCOPY /S %userprofile%\download *.odg %userprofile%\Documents\DaSistemare /MOVE
 ROBOCOPY /S %userprofile%\download *.txt %userprofile%\Documents\DaSistemare /MOVE
 echo.
-echo Documenti completata
+echo Spostamento Documenti completato
 echo.
 echo Sto spostando le immagini nella cartella %userprofile&\Pictures:
 echo.
@@ -39,26 +39,26 @@ ROBOCOPY /S %userprofile%\download *.png %userprofile%\Pictures\DaSistemare /MOV
 ROBOCOPY /S %userprofile%\download *.jpg %userprofile%\Pictures\DaSistemare /MOVE
 ROBOCOPY /S %userprofile%\download *.gif %userprofile%\Pictures\DaSistemare /MOVE
 echo.
-echo Immagini completata
+echo Spostamento Immagini completato
 echo.
 
 echo.
 echo Sto spostando la musica nella cartella %userprofile&\Music:
 echo.
-ROBOCOPY /S %userprofile%\download *.mp3 %userprofile%\Music\DASIST /MOVE
-ROBOCOPY /S %userprofile%\download *.wma %userprofile%\Music\DASIST /MOVE
+ROBOCOPY /S %userprofile%\download *.mp3 %userprofile%\Music\DaSistemare /MOVE
+ROBOCOPY /S %userprofile%\download *.wma %userprofile%\Music\DaSistemare /MOVE
 echo.
-echo Musica completata
+echo Spostamento Musica completato
 echo.
 
 echo.
 echo Sto spostando i video nella cartella %userprofile&\Videos:
 echo.
-ROBOCOPY /S %userprofile%\download *.avi %userprofile%\Videos\DASIST /MOVE
-ROBOCOPY /S %userprofile%\download *.mkv %userprofile%\Videos\DASIST /MOVE
-ROBOCOPY /S %userprofile%\download *.mp4 %userprofile%\Videos\DASIST /MOVE
+ROBOCOPY /S %userprofile%\download *.avi %userprofile%\Videos\DaSistemare /MOVE
+ROBOCOPY /S %userprofile%\download *.mkv %userprofile%\Videos\DaSistemare /MOVE
+ROBOCOPY /S %userprofile%\download *.mp4 %userprofile%\Videos\DaSistemare /MOVE
 echo.
-echo Video completata
+echo Spostamento Video completato
 echo.
 
 echo.
