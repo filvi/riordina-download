@@ -11,6 +11,8 @@ echo. --------------------------------------
 echo Bug report info@filippovicari.com
 echo. --------------------------------------
 
+pause
+cls
 
 rem elimina tutti i file per MAC
 del /s  ._*
