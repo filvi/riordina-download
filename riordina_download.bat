@@ -2,7 +2,7 @@
 title Download Reorder ~ Filippo Vicari ~ info@filippovicari.com
 
 echo. --------------------------------------
-echo Programma: RoboBackup
+echo Programma: Download-Reorder
 echo. --------------------------------------
 echo Descrizione: Riordina la tua cartella Download
 echo. --------------------------------------
